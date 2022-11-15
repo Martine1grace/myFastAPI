@@ -18,11 +18,11 @@ def today():
 def names(First_name: bool = False, last_name: bool = False, full_name: bool = True):
     full_names = ""
     if First_name:
-        full_names += 'Gloria'
+        full_names += 'Grace'
     if last_name:
-        full_names += 'Sinseswa'
+        full_names += 'Martine'
     if full_name:
-        full_names = 'Hello my name is Gloria Sinseswa'
+        full_names = 'Hello my name is Grace Martine'
     return full_names
 
 
